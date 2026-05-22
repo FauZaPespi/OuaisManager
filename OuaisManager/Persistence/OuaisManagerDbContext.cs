@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace OuaisManager.Persistence
 {
-    public class OuaisManagerDbContext
+    public class OuaisManagerDbContext 
     {
         private string _dbConnectionString;
 
         public OuaisManagerDbContext()
         {
-            _dbConnectionString = File.ReadAllText();
+            _dbConnectionString = File.ReadAllText("../ConnectionString.txt");
         }
 
         public MySqlConnection ConnectDatabase()

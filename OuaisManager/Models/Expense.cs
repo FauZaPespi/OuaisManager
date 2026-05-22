@@ -50,5 +50,16 @@ namespace OuaisManager.Models
                 _datetime = value;
             }
         }
+
+        public int Category_id
+        {
+            get => _category_id;
+            set
+            {
+                if (value.GetType() != typeof(int) || value < 0)
+                    throw new ArgumentException("Category id must be a positive number");
+                _category_id = value;
+            }
+        }
     }
 }

@@ -31,17 +31,17 @@ partial class MainForm
     {
         lsbDepense = new ListBox();
         grbAction = new GroupBox();
-        button1 = new Button();
-        button2 = new Button();
         button3 = new Button();
+        button2 = new Button();
+        button1 = new Button();
         lblTitle = new Label();
         lblDetailsName = new Label();
         lblDetailsAmount = new Label();
         lblDetailsCategory = new Label();
         grbDepense = new GroupBox();
-        lblInfoName = new Label();
-        lblInfoAmount = new Label();
         lblInfoCategory = new Label();
+        lblInfoAmount = new Label();
+        lblInfoName = new Label();
         grbAction.SuspendLayout();
         grbDepense.SuspendLayout();
         SuspendLayout();
@@ -68,14 +68,14 @@ partial class MainForm
         grbAction.TabStop = false;
         grbAction.Text = "Actions";
         // 
-        // button1
+        // button3
         // 
-        button1.Location = new Point(4, 22);
-        button1.Name = "button1";
-        button1.Size = new Size(75, 72);
-        button1.TabIndex = 0;
-        button1.Text = "Edit";
-        button1.UseVisualStyleBackColor = true;
+        button3.Location = new Point(160, 22);
+        button3.Name = "button3";
+        button3.Size = new Size(75, 72);
+        button3.TabIndex = 2;
+        button3.Text = "Add";
+        button3.UseVisualStyleBackColor = true;
         // 
         // button2
         // 
@@ -86,22 +86,22 @@ partial class MainForm
         button2.Text = "Remove";
         button2.UseVisualStyleBackColor = true;
         // 
-        // button3
+        // button1
         // 
-        button3.Location = new Point(160, 22);
-        button3.Name = "button3";
-        button3.Size = new Size(75, 72);
-        button3.TabIndex = 2;
-        button3.Text = "Add";
-        button3.UseVisualStyleBackColor = true;
+        button1.Location = new Point(4, 22);
+        button1.Name = "button1";
+        button1.Size = new Size(75, 72);
+        button1.TabIndex = 0;
+        button1.Text = "Edit";
+        button1.UseVisualStyleBackColor = true;
         // 
         // lblTitle
         // 
         lblTitle.AutoSize = true;
-        lblTitle.Font = new Font("JetBrainsMono NFP Medium", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+        lblTitle.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
         lblTitle.Location = new Point(12, 9);
         lblTitle.Name = "lblTitle";
-        lblTitle.Size = new Size(480, 25);
+        lblTitle.Size = new Size(411, 24);
         lblTitle.TabIndex = 2;
         lblTitle.Text = "OuaisManager - Gestionnaire de dépenses";
         // 
@@ -157,16 +157,16 @@ partial class MainForm
         grbDepense.TabStop = false;
         grbDepense.Text = "INFO - Dépense";
         // 
-        // lblInfoName
+        // lblInfoCategory
         // 
-        lblInfoName.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-        lblInfoName.AutoSize = true;
-        lblInfoName.Location = new Point(72, 19);
-        lblInfoName.Name = "lblInfoName";
-        lblInfoName.Size = new Size(29, 15);
-        lblInfoName.TabIndex = 6;
-        lblInfoName.Text = "N/A";
-        lblInfoName.TextAlign = ContentAlignment.MiddleCenter;
+        lblInfoCategory.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+        lblInfoCategory.AutoSize = true;
+        lblInfoCategory.Location = new Point(72, 84);
+        lblInfoCategory.Name = "lblInfoCategory";
+        lblInfoCategory.Size = new Size(29, 15);
+        lblInfoCategory.TabIndex = 8;
+        lblInfoCategory.Text = "N/A";
+        lblInfoCategory.TextAlign = ContentAlignment.MiddleCenter;
         // 
         // lblInfoAmount
         // 
@@ -179,16 +179,16 @@ partial class MainForm
         lblInfoAmount.Text = "0.00$";
         lblInfoAmount.TextAlign = ContentAlignment.MiddleCenter;
         // 
-        // lblInfoCategory
+        // lblInfoName
         // 
-        lblInfoCategory.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-        lblInfoCategory.AutoSize = true;
-        lblInfoCategory.Location = new Point(72, 84);
-        lblInfoCategory.Name = "lblInfoCategory";
-        lblInfoCategory.Size = new Size(29, 15);
-        lblInfoCategory.TabIndex = 8;
-        lblInfoCategory.Text = "N/A";
-        lblInfoCategory.TextAlign = ContentAlignment.MiddleCenter;
+        lblInfoName.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+        lblInfoName.AutoSize = true;
+        lblInfoName.Location = new Point(72, 19);
+        lblInfoName.Name = "lblInfoName";
+        lblInfoName.Size = new Size(29, 15);
+        lblInfoName.TabIndex = 6;
+        lblInfoName.Text = "N/A";
+        lblInfoName.TextAlign = ContentAlignment.MiddleCenter;
         // 
         // MainForm
         // 
@@ -204,6 +204,7 @@ partial class MainForm
         ShowIcon = false;
         StartPosition = FormStartPosition.CenterScreen;
         Text = "Dépenses - OuaisManager";
+        Load += MainForm_Load;
         grbAction.ResumeLayout(false);
         grbDepense.ResumeLayout(false);
         grbDepense.PerformLayout();

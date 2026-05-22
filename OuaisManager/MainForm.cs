@@ -6,4 +6,9 @@ public partial class MainForm : Form
     {
         InitializeComponent();
     }
+
+    private void MainForm_Load(object sender, EventArgs e)
+    {
+
+    }
 }
