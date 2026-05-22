@@ -1,0 +1,83 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Z:\\source\\repo\\OuaisManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{29E9407C-2AE5-4498-8B93-7B3C8CC2D302}|OuaisManager\\OuaisManager.csproj|z:\\source\\repo\\ouaismanager\\ouaismanager\\createdepenseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{29E9407C-2AE5-4498-8B93-7B3C8CC2D302}|OuaisManager\\OuaisManager.csproj|solutionrelative:ouaismanager\\createdepenseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E9407C-2AE5-4498-8B93-7B3C8CC2D302}|OuaisManager\\OuaisManager.csproj|z:\\source\\repo\\ouaismanager\\ouaismanager\\ouaismanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{29E9407C-2AE5-4498-8B93-7B3C8CC2D302}|OuaisManager\\OuaisManager.csproj|solutionrelative:ouaismanager\\ouaismanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E9407C-2AE5-4498-8B93-7B3C8CC2D302}|OuaisManager\\OuaisManager.csproj|z:\\source\\repo\\ouaismanager\\ouaismanager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{29E9407C-2AE5-4498-8B93-7B3C8CC2D302}|OuaisManager\\OuaisManager.csproj|solutionrelative:ouaismanager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateDepenseForm.cs [Conception]",
+              "DocumentMoniker": "Z:\\source\\repo\\OuaisManager\\OuaisManager\\CreateDepenseForm.cs",
+              "RelativeDocumentMoniker": "OuaisManager\\CreateDepenseForm.cs",
+              "ToolTip": "Z:\\source\\repo\\OuaisManager\\OuaisManager\\CreateDepenseForm.cs [Conception]",
+              "RelativeToolTip": "OuaisManager\\CreateDepenseForm.cs [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T11:48:42.572Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs [Conception]",
+              "DocumentMoniker": "Z:\\source\\repo\\OuaisManager\\OuaisManager\\MainForm.cs",
+              "RelativeDocumentMoniker": "OuaisManager\\MainForm.cs",
+              "ToolTip": "Z:\\source\\repo\\OuaisManager\\OuaisManager\\MainForm.cs [Conception]",
+              "RelativeToolTip": "OuaisManager\\MainForm.cs [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T11:19:02.352Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OuaisManager",
+              "DocumentMoniker": "Z:\\source\\repo\\OuaisManager\\OuaisManager\\OuaisManager.csproj",
+              "RelativeDocumentMoniker": "OuaisManager\\OuaisManager.csproj",
+              "ToolTip": "Z:\\source\\repo\\OuaisManager\\OuaisManager\\OuaisManager.csproj",
+              "RelativeToolTip": "OuaisManager\\OuaisManager.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-22T11:18:52.319Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 148,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
